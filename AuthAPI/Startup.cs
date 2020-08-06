@@ -47,7 +47,7 @@ namespace AuthAPI
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            services.AddIdentityConfiguration(Configuration);
+            services.AddIdentityConfiguration(Configuration); 
 
             services.AddAutoMapper(typeof(Startup));
 
