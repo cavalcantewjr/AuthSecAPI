@@ -8,7 +8,7 @@ namespace Auth.API.Configuration
 {
     public static class DependencyInjectionConfig
     {
-        public static IServiceCollection ResolveDependecies(this IServiceCollection services)
+        public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
             return services;
         }
